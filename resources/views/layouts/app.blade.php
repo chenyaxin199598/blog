@@ -42,7 +42,10 @@
 
 </head>
 <body>
-    <div id="app">
+<!-- Loader -->
+{{--<div id="preloader"><div id="status"><div class="spinner"></div></div></div>--}}
+
+<div id="app">
             @yield('content')
     </div>
 </body>
